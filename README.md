@@ -1,74 +1,76 @@
-# 🍫 Chocolate Sales Dashboard (Power BI)
+# 🍫 Chocolate Sales Dashboard
 
-## 📊 Overview
+> An interactive Power BI dashboard uncovering revenue trends, profitability, and performance patterns across the chocolate retail landscape.
 
-This project presents an interactive Power BI dashboard analyzing chocolate sales data across multiple dimensions including product categories, brands, countries, and store types.
-
-The goal of this dashboard is to uncover key business insights such as revenue trends, profitability, and performance distribution.
+![Dashboard Preview](images/dashboard.PNG)
 
 ---
 
-## 🚀 Key Features
+## 📊 Overview
 
-* 📈 Revenue & Profit Trend over time
-* 📦 Category-wise performance analysis
-* 🌍 Country-wise revenue and profit breakdown
-* 🏪 Store type revenue distribution
-* 🏷️ Brand performance comparison
-* 🎛️ Interactive slicers (Month, Category, Country)
+This project delivers a multi-dimensional analysis of chocolate sales data, exploring performance across product categories, brands, countries, and store types. Built with a clean star schema and purpose-built DAX measures, the dashboard transforms raw sales data into actionable business intelligence.
+
+---
+
+## ✨ Key Features
+
+| Feature | Description |
+|---|---|
+| 📈 **Revenue & Profit Trends** | Time-series analysis of sales and margin performance |
+| 📦 **Category Breakdown** | Side-by-side comparison across chocolate product categories |
+| 🌍 **Country Analysis** | Geographic revenue and profit distribution |
+| 🏪 **Store Type Distribution** | Channel contribution to overall sales |
+| 🏷️ **Brand Comparison** | Head-to-head brand performance ranking |
+| 🎛️ **Interactive Slicers** | Dynamic filtering by Month, Category, and Country |
 
 ---
 
 ## 📌 Key Metrics
 
-* Total Revenue
-* Total Profit
-* Total Orders
-* Total Quantity Sold
-* Average Order Value
-* Profit Margin
+- **Total Revenue** — Overall sales generated across all channels
+- **Total Profit** — Net earnings after costs
+- **Total Orders** — Volume of transactions processed
+- **Total Quantity Sold** — Units moved across all categories
+- **Average Order Value** — Revenue per transaction
+- **Profit Margin** — Efficiency of revenue conversion to profit
 
 ---
 
 ## 🧠 Insights
 
-* Praline and White chocolate categories generate the highest revenue
-* Certain brands consistently outperform others in both revenue and profit
-* Revenue trends show stable performance with slight monthly variation
-* Store type distribution highlights dominant contribution from specific channels
-* Profit and revenue patterns vary across countries
+- **Praline** and **White Chocolate** categories lead in total revenue generation
+- A consistent set of brands outperforms peers in both revenue and profit margin
+- Monthly revenue remains relatively stable, with mild seasonal variation
+- Specific store channels dominate overall sales volume
+- Country-level patterns reveal meaningful geographic variation in both revenue and profitability
 
 ---
 
 ## ⚠️ Data Note
 
-Customer-level analysis was excluded due to inconsistencies in customer identifiers between datasets. Only reliable and matched data relationships were used to ensure accuracy.
+Customer-level analysis was intentionally excluded due to identifier inconsistencies across datasets. Only verified, matched data relationships were used to ensure the accuracy and reliability of all reported metrics.
 
 ---
 
-## 🖼️ Dashboard Preview
+## 🛠️ Tools & Techniques
 
-![Dashboard](dashboard.png)
-
----
-
-## 🛠️ Tools Used
-
-* Power BI
-* Data Modeling (Star Schema)
-* DAX (Measures & Calculations)
+- **Power BI Desktop** — Report authoring and visualisation
+- **Data Modelling** — Star schema design for optimised querying
+- **DAX** — Custom measures and calculated columns for KPIs
 
 ---
 
-## 📁 Files Included
+## 📁 Repository Structure
 
-* `Chocolate Sales Dashboard.pbix` → Power BI file
-* `dashboard.png` → Dashboard preview
-
----
-
-## 📬 Contact
-
-If you have any feedback or suggestions, feel free to connect!
+```
+📦 chocolate-sales-dashboard
+ ┣ 📊 Chocolate Sales Dashboard.pbix
+ ┗ 📁 images
+    ┗ 🖼️ dashboard.PNG
+```
 
 ---
+
+## 📬 Feedback & Contact
+
+Have suggestions or questions? Feel free to open an issue or connect. Feedback is always welcome!
